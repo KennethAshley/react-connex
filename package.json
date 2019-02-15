@@ -5,6 +5,11 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "license": "MIT",
+  "author": "Kenneth Ashley <ken.u.diggitt@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/KennethAshley/react-connex/issues"
+  },
+  "homepage": "https://github.com/KennethAshley/react-connex#readme",
   "files": [
     "dist"
   ],
