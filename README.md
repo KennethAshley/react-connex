@@ -16,7 +16,7 @@ import ConnexProvider from 'react-connex';
 
 <ConnexProvider
   loading="Loading..."
-  error={err => `Connection error: ${err.message}`}>
+  error={err => `Connection error: ${err}`}>
   <App />
 </ConnexProvider>
 ```

@@ -7,7 +7,7 @@ import App from './App';
 render(
   <ConnexProvider
     loading="Loading..."
-    error={(err) => `Connection error: ${err.message}`}>
+    error={err => `Connection error: ${err}`}>
     <App />
   </ConnexProvider>,
   document.getElementById("root")
